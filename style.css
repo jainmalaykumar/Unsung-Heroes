@@ -136,7 +136,9 @@ footer {
 	text-decoration: none;
 	border-radius: 50%;
 }
-
+div{
+	padding: 2px;
+}
 /* Input */
 input {
 	width: 24.94846%;
