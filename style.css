@@ -1,4 +1,7 @@
 @charset "ISO-8859-1";
+p{
+	
+}
 /* Add a black background color to the top navigation */
 .topnav {
 	background-color: #FF9933;
@@ -55,6 +58,9 @@
     text-align: left;
   }
  
+}
+div{
+	padding: 2px;
 }
 /* #007bb5 */
 /* Footer */
@@ -136,9 +142,7 @@ footer {
 	text-decoration: none;
 	border-radius: 50%;
 }
-div{
-	padding: 2px;
-}
+
 /* Input */
 input {
 	width: 24.94846%;
@@ -238,7 +242,7 @@ li a:hover:not (.active ) {
 }
 
 .grad1 {
-	height: 780px;
+	background-size: cover;
 	background-color: linear-gradient(#FF9933, #ffffff, #138808); 
 	background-image: linear-gradient(#FF9933, #ffffff, #138808);
 }
@@ -280,3 +284,4 @@ li a:hover:not (.active ) {
         opacity: 1;
     }
 }
+
